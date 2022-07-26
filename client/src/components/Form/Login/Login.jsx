@@ -28,9 +28,9 @@ const Login = () => {
     }
     if(formData.userEmail.length > 5 && formData.userPassword.length > 5){
       try {
-        const {data,status} = await api.createUser(formData);
-        setFormData({userEmail:'',userPassword:''})
+        const {status} = await api.createUser(formData);
         if(status === 201){
+          setFormData({userEmail:'',userPassword:''})
           alert('User has been registered')
           navigate('/welcome')
         }
