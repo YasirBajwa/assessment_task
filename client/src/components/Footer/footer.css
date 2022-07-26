@@ -1,0 +1,26 @@
+
+.footer-container{
+    margin-top: 60px;
+}
+.footer-container ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 65%;
+    margin: 0 auto;
+justify-content: center;
+}
+
+.footer-container ul li{
+    margin-left: 15px;
+    font-size: 13px;
+    color: #8e8e8e;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 14px;
+    color: #8e8e8e;
+   text-align: center;
+   margin-top: 30px;
+}

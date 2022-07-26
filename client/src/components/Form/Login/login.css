@@ -1,0 +1,75 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+}
+
+form input{
+    width: 290px;
+    height:35px;
+    margin-top: 10px;
+    border:  1px solid #DBDBDB;
+    border-radius: 5px;
+    text-indent: 15px;
+}
+form button{
+    margin-top: 30px;
+    height: 35px;
+    background: #0095F6;
+    border-radius: 3px;
+    border: #0095F6;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+form input:focus{
+    box-shadow: none;
+    outline: none;
+    border:1px solid darkgray;
+}
+.separator-line {
+    width: 120px;
+    height:1px;
+    background: #DBDBDB;
+}
+.separator-component{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.separator-text {
+    position: relative;
+    top: -9px;
+    color: gray;
+}
+.fb-container{
+    text-align: center;
+    margin-top: 30px;
+}
+.fb-container i{
+    color:#385185;
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+}
+.fb-container span{
+    color:#385185;
+    margin-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+.forget-password {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #00376b;
+}
+.error{
+    color: red;
+    font-size: 13px;
+}

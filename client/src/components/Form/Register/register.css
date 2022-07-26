@@ -1,0 +1,33 @@
+.register-label{
+    color: #8e8e8e;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+
+}
+.facebook-btn{
+    margin-top: 30px;
+    height: 35px;
+    background: #0095F6;
+    border-radius: 3px;
+    border: #0095F6;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+.text-bold {
+    font-weight: bold;
+    cursor: pointer;
+}
+.service-text {
+    font-size: 13px;
+    text-align: center;
+    color: #8e8e8e;
+}
+.condition-text{
+    font-size: 13px;
+    text-align: center;
+    color: #8e8e8e;
+
+}

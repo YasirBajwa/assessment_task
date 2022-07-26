@@ -1,0 +1,42 @@
+.gallery__container{
+    align-self: center;
+    background-image: url(../../assets/img1.png);
+    background-repeat: no-repeat;
+    background-position: -46px 0;
+    background-size: 468.32px 634.15px;
+    height: 580px;
+    width:500px
+}
+
+.gallery__items {
+    position: relative;
+  }
+  
+.gallery__items img {
+      position: absolute;
+      top: 27px;
+      left: 108px;
+  }
+  
+  .top {
+      animation-name: fade;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 4s;
+      animation-direction: alternate;
+  }
+  
+  @keyframes fade {
+      0% {
+          opacity: 1;
+      }
+      25% {
+          opacity: 1;
+      }
+      75% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
