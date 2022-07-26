@@ -27,9 +27,7 @@ const Footer = () => {
           <li>Visual Arts </li>
         </ul>
 
-        <div className="copyright">
-          English (UK) © 2022 Instagram from Meta
-        </div>
+        <div className="copyright">English (UK) © 2022 Instagram from Meta</div>
       </div>
     </div>
   );
